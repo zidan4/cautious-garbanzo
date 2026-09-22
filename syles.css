@@ -24,12 +24,14 @@ ul {
   justify-content: space-evenly;
 }
 
+li {
+  list-style-type: none;
+  padding: 0;
+}
+
 li a{
   padding: .25em;
   color: var(--col);
   text-decoration: none;
 }
 
-::marker {
-  display: none;
-}
