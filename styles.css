@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --col: #F3ECDE;
+}
+
+body {
+  background-color: #06172E;
+  color: var(--col);
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  line-height: 1.4;
+  background-color: #022C50;
+  color: var(--col);
+  text-decoration: none;
+}
